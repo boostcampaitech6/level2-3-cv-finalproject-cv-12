@@ -1,3 +1,9 @@
 [submodule "front"]
 	path = front
 	url = https://github.com/12-CV/front.git
+[submodule "back"]
+	path = back
+	url = https://github.com/12-CV/back.git
+[submodule "model"]
+	path = model
+	url = https://github.com/12-CV/model.git
