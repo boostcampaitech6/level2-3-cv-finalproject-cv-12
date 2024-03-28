@@ -66,5 +66,8 @@ $$ MSE = \frac{1}{n} \sum_{i=1}^{n} (y_i - \hat{y}_i)^2 = 0.3071$$
 $$ FPS = 30 $$
 
 ## 프로그램 사용법
-각 back, front, model 레포지토리 README 참조
-
+1. back, front 레포지토리 README 참조하여 프로그램 실행
+2. '영상 불러오기' 혹은 '카메라 불러오기'로 영상 선택
+3. 왼쪽의 다양한 '기능설정' 선택 가능
+4. '재생', '정지', '처음부터 다시 시작'을 통해 영상에 대한 조절 가능
+![image](https://github.com/boostcampaitech6/level2-3-cv-finalproject-cv-12/assets/56228633/97c1dadf-379e-4b21-aac4-7a105497e4da)
