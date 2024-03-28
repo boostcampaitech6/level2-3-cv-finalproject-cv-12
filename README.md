@@ -29,6 +29,33 @@
 
 ## 프로젝트 구조
 
+```
+{proj}
+├── back
+│   ├── logic
+│   ├── pretrained_weights
+│   ├── config.py
+│   ├── server.py
+│   └── requirements_server.txt
+├── front
+│   ├── common
+│   ├── controller
+│   ├── resources
+│   ├── ui
+│   ├── app.py
+│   └── beep.mp3
+├── model
+│   ├── blur
+│   ├── calc_depth.py
+│   ├── calc_func.py
+│   ├── frame_confusion.py
+│   ├── inference.py
+│   └── plot_dist.ipynb
+└── README.md
+```
+
+![GuZo](https://github.com/boostcampaitech6/level2-3-cv-finalproject-cv-12/assets/109489851/a8aea2df-ce83-4200-a5c8-06c3dc1ff440)
+
 ## 성능 지표
 ### 절대거리
 $$ MSE = \frac{1}{n} \sum_{i=1}^{n} (y_i - \hat{y}_i)^2 = 0.3071$$
@@ -39,5 +66,5 @@ $$ MSE = \frac{1}{n} \sum_{i=1}^{n} (y_i - \hat{y}_i)^2 = 0.3071$$
 $$ FPS = 30 $$
 
 ## 프로그램 사용법
-
+각 back, front, model 레포지토리 README 참조
 
