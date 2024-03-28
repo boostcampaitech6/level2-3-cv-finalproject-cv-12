@@ -43,7 +43,8 @@
 │   ├── resources
 │   ├── ui
 │   ├── app.py
-│   └── beep.mp3
+│   ├── beep.mp3
+│   └── requirments_client.txt
 ├── model
 │   ├── blur
 │   ├── calc_depth.py
